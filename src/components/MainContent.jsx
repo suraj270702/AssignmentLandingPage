@@ -4,11 +4,11 @@ const MainContent = () => {
   return (
     <section className='mt-[20px]'>
 
-        <div className="container w-full max-w-[1400px] px-4 py-4 flex ">
+        <div className="container w-full max-w-[1400px] px-4 py-4 flex md:flex-row flex-col ">
 
             <div className="left flex flex-col ">
                 <div className="content w-full max-w-[600px] ">
-                    <h1 className='text-[50px] leading-[60px] font-bold text-[#fff]'>The Digital Marketing Agency that makes A Difference</h1>
+                    <h1 className='md:text-[50px] text-[40px]  leading-[60px] font-bold text-[#fff]'>The Digital Marketing Agency that makes A Difference</h1>
                 </div>
                 <div className="services mt-[60px] ">
                     <div className='flex flex-row gap-[60px]'>
@@ -30,12 +30,12 @@ const MainContent = () => {
                     
                 </div>
             </div>
-            <div className="right w-full max-w-[800px] flex flex-row gap-[40px]">
-            <div className='ml-[50px] mt-[90px]'>
-                <img src='https://northiq.com/wp-content/uploads/2017/02/wheel-3.png' className='w-full max-w-[300px]'/>
+            <div className="right w-full max-w-[800px] flex md:flex-row flex-col gap-[40px]">
+            <div className='ml-[50px] md:mt-[90px] mt-[40px]'>
+                <img src='https://northiq.com/wp-content/uploads/2017/02/wheel-3.png' className='w-full md:max-w-[300px] max-w-[200px]'/>
             </div>
             <div className=' ml-[20px]'>
-            <div className='max-w-[300px] h-[150px] px-4 py-4 border border-solid border-[#bcbcbc] rounded-b-3xl rounded-t-md mt-[50px]'>
+            <div className='max-w-[300px] h-[150px] px-4 py-4 border border-solid border-[#bcbcbc] rounded-b-3xl rounded-t-md md:mt-[50px] mt-[20px]'>
                 <p className='text-[18px] leading-8 font-[300] text-[#fff]'>
                 Agency that built many amazing product to boost your business to next level
                 </p>
